@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Team:</strong>
+  <%= Team.find(@membership.team_id).name %>
+</p>
+
+<p>
+  <strong>Member:</strong>
+  <%= User.find(@membership.member_id).name %>
+</p>
+
+<%= link_to 'Back', memberships_path %>
+<%= link_to 'Home', root_path %>
