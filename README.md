@@ -11,3 +11,4 @@ INSTRUCTIONS:
 * Run `rails s` to start Rails server on `localhost`
 * Open your browser and navigate to `localhost:3000`
 * Explore!
+* Run Travis CI
