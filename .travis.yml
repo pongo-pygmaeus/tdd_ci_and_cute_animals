@@ -1,17 +1,17 @@
 services:
-  - postgresql
+- postgresql
 language: ruby
 rvm:
-  - 2.3.1
+- 2.3.1
 env:
-  - DB=postgresql  
-script: 
-  - RAILS_ENV=test bundle exec rake db:migrate --trace
-  - bundle exec rake db:test:prepare
-  - bundle exec rspec spec/
+- DB=postgresql
+script:
+- RAILS_ENV=test bundle exec rake db:migrate --trace
+- bundle exec rake db:test:prepare
+- bundle exec rspec spec/
 before_script:
-  - psql -c 'create database ar_teams_and_leagues_challenge_rails_test;' -U postgres
+- psql -c 'create database ar_teams_and_leagues_challenge_rails_test;' -U postgres
 deploy:
   provider: heroku
   api_key:
-    secure: ENV['HEROKU_API_KEY']
+    secure: mAmB5+5INP0qt1SlE6vp0DoxhZf0WZyIIS6+r/eu43IQQp5SlNuaXzCFuiS0HA23zQMVmop/RGMQjeYMFS2ZzxDhjsPT4q1Q08WUN89CQjEiVTAonsiQmt77f4otSFckiW2zR73djQziM1FBSkdZMdi4DidTreESWhh2fz1JT4AgkU8IDKtWNAL+K4MJ5ONVROYnn9gKlOUbU2Iyk3QLss5P0GIKLLl/Z4P0pDNNq5AwJSB32z9iz5VZDcWSAK/wAXU4Fw10QopOnAHA6WJNygeD5QNPvlPKLYP3Z8EbUP2j2Sm4CbQKO29+WNpSaQUypA2ajoXFY9/X36P0qbr1qblFiTTdgLwpv8IM0FIB7DtKZSMinvj7+Jids/ib7ON4ORJJbYXMIkwd23jGjF9FBUikwCyaAyHW3Jb0PXoa5yyI9yLmB/1G4zpP8ow4Eb7agOFGa/Bo6Xdx16Z025d2VC8aSM+4kk69bJB0Zgs+4jEme/8SPmD2hvHjTz//OOXcKpKPdzhtgyhr1vhS6oUFkJflVx6fNufs60nJP6h2cfSSDowjzKT3dDhS7FmGTCOS4xGuaviw1sqBBrXzsxH/sOKOo3aFkkMQFs5NVKy+5Z61eMUXQWEv7rlugiczEuoXxcoI7nlQoacXLwyUqSSg49so3hNgFYZWXyhsugYONYo=
