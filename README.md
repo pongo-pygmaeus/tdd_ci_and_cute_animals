@@ -35,7 +35,7 @@ env:
 - DB=postgresql
 ```
 
-Set up the test database 
+Set up the test database
 ```
 before_script:
 - psql -c 'create database ar_teams_and_leagues_challenge_rails_test;' -U postgres
@@ -48,7 +48,6 @@ script:
 - bundle exec rake db:test:prepare
 - bundle exec rake db:seed RAILS_ENV=test
 - bundle exec rspec spec/
-
 ```
 
 Use Heroku account information to deploy to that service
