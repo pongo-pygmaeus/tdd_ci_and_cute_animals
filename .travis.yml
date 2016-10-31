@@ -8,6 +8,7 @@ env:
 script:
 - RAILS_ENV=test bundle exec rake db:migrate --trace
 - bundle exec rake db:test:prepare
+- bundle exec rake db:seed
 - bundle exec rspec spec/
 before_script:
 - psql -c 'create database ar_teams_and_leagues_challenge_rails_test;' -U postgres
