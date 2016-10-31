@@ -11,3 +11,7 @@ script:
   - bundle exec rspec spec/
 before_script:
   - psql -c 'create database ar_teams_and_leagues_challenge_rails_test;' -U postgres
+deploy:
+  provider: heroku
+  api_key:
+    secure: ENV['HEROKU_API_KEY']
