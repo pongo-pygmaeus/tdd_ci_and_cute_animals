@@ -1,5 +1,5 @@
 # README
-https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master
+<img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img>
 
 <h1> Bobolink Love </h1>
 
