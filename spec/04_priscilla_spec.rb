@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe "Priscilla" do
   let(:priscilla) { User.find_by(name: "Priscilla") }
-  let(:purple_parrots) { Team.find_by(name: "Purple Pbarrots")} 
+  let(:purple_parrots) { Team.find_by(name: "Purple Parrots")} 
   let(:green_monkeys) { Team.find_by(name: "Green Monkeys")}
 
   it "is the captain of the correct team" do
