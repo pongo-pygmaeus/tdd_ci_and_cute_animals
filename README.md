@@ -1,4 +1,7 @@
 # README
+https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master
+
+<h1> Bobolink Love </h1>
 
 Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Memberships AR challenge with most MVC tests implemented.
 
