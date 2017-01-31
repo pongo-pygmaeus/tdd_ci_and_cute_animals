@@ -4,7 +4,7 @@ describe "Users" do
   it "has four users with correct names" do
     names = User.all.order(:name).map(&:name)
 
-    expect(names).to eq ["Penelope", "Peepee", "Pete", "Priscilla"]
+    expect(names).to eq ["Penelope", "Pepe", "Pete", "Priscilla"]
   end
 end
 
