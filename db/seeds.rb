@@ -3,7 +3,7 @@ League.destroy_all
 Team.destroy_all
 Membership.destroy_all
   
-User.create(name: "Penelope",  age: 28)
+User.create(name: "Penlope",  age: 28)
 User.create(name: "Pete",      age: 22)
 User.create(name: "Pepe",      age: 34)
 User.create(name: "Priscilla", age: 25)
