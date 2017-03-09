@@ -35,9 +35,9 @@ Team.create(name:          "Purple Parrots",
             captain_id:    User.find_by(name: "Priscilla").id,
             league_id:     League.find_by(name: "Tennis").id)
 
-Team.find_by(name:  "Green Monkeys").members << User.find_by(name: "Peneope")
-Team.find_by(name:  "Green Monkeys").members << User.find_by(name: "Pe")
-Team.find_by(name:  "Green Monkeys").members << User.find_by(name: "Piscilla")
+Team.find_by(name:  "Green Monkeys").members << User.find_by(name: "Penelope")
+Team.find_by(name:  "Green Monkeys").members << User.find_by(name: "Pepe")
+Team.find_by(name:  "Green Monkeys").members << User.find_by(name: "Priscilla")
 
 Team.find_by(name:  "Silver Snakes").members << User.find_by(name: "Pete")
 Team.find_by(name: "Purple Parrots").members << User.find_by(name: "Priscilla")
