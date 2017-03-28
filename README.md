@@ -17,7 +17,7 @@ INSTRUCTIONS:
 * Run Travis CI
 
 Travis Annotations (Everything below is run in a dynamic Docker 
-container everytime Travis runs a test suite)
+container everytime Travis CI runs a test suite)
 
 Start Postgres:
 ```
