@@ -4,3 +4,8 @@ database:
     - bundle exec rake db:create 
     - bundle exec rake db:migrate
     - bundle exec rake db:seed 
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: frightening-moonlight-10587
