@@ -69,13 +69,18 @@ deploy:
 
 Circle CI Annotations
 
-1. Go to https://dashboard.heroku.com/account, and copy the API key located towards the bottom of the page.
-2. Go to the CircleCI dashboard: https://circleci.com/dashboard.
-3. Click on the gear icon to the right of a project name to access project settings.
-4. Scroll down to `Heroku Deployment`
-5. In the area titled `Step 1`, enter the Heroku API key retrieved in step 1 of this procedure.
-6. In the area titled `Step 2`, click the `Set user to <GitHub username>` button.
-7. Add a file to the root directory of your project called `circle.yml` (no leading period).
+To build and deploy your project with CircleCI:
+
+1. Add a file to the root directory of your project called `circle.yml` (no leading period).
+2. Log into GitHub then visit https://circleci.com 
+3. Navigate to https://circleci.com/add-projects
+4. Locate your the project you want to build and select `Build Project`
+5. Go to https://dashboard.heroku.com/account, and copy the API key located towards the bottom of the page.
+6. Go to the CircleCI dashboard: https://circleci.com/dashboard.
+7. Click on the gear icon to the right of a project name to access project settings.
+8. Scroll down to `Heroku Deployment`
+9. In the area titled `Step 1`, enter the Heroku API key retrieved in step 1 of this procedure.
+10. In the area titled `Step 2`, click the `Set user to <GitHub username>` button.
 
 Example `circle.yml`
 
