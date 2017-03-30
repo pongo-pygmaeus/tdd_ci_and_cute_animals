@@ -1,7 +1,7 @@
 # README
 <img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img>
 
-<h1> Firefly Love </h1>
+<h1> Fox Love </h1>
 
 Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Memberships AR challenge with most MVC tests implemented. (For more info about using this repo and CI, see the document [here](./resources/ci_with_travis.pdf)).
 
