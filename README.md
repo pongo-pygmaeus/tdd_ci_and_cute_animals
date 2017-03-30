@@ -3,7 +3,7 @@
 
 <h1> Firefly Love </h1>
 
-Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Memberships AR challenge with most MVC tests implemented.
+Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Memberships AR challenge with most MVC tests implemented. (For more info about using this repo and CI, see the document [here](./resources/ci_with_travis.pdf)).
 
 INSTRUCTIONS:
 
