@@ -1,7 +1,7 @@
 # README
 <img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img>
 
-<h1> Fox Love </h1>
+<h1> Sea Lion Love </h1>
 
 Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Memberships AR challenge with most MVC tests implemented. (For more info about using this repo and CI, see the document [here](./resources/ci_with_travis.pdf)).
 
@@ -16,7 +16,7 @@ INSTRUCTIONS:
 * Explore!
 * Run Travis CI
 
-Travis Annotations (Everything below is run in a dynamic Docker 
+Travis Annotations (Everything below is run in a dynamic Docker
 container everytime Travis CI runs a test suite)
 
 Start Postgres:
@@ -57,8 +57,8 @@ Use Heroku account information to deploy to that service
 (Set up your app on Heroku like you normally would prior
 to filling in these fields)
 
-To get the `api_key` field, run `travis encrypt $(heroku auth:token) --add deploy.api_key` in your local project directory. Also, you need to 
-run `gem install travis` before running the previous command. 
+To get the `api_key` field, run `travis encrypt $(heroku auth:token) --add deploy.api_key` in your local project directory. Also, you need to
+run `gem install travis` before running the previous command.
 ```
 deploy:
   provider: heroku
@@ -72,7 +72,7 @@ Circle CI Annotations
 To build and deploy your project with CircleCI:
 
 1. Add a file to the root directory of your project called `circle.yml` (no leading period).
-2. Log into GitHub then visit https://circleci.com 
+2. Log into GitHub then visit https://circleci.com
 3. Navigate to https://circleci.com/add-projects
 4. Locate your the project you want to build and select `Build Project`
 5. Go to https://dashboard.heroku.com/account, and copy the API key located towards the bottom of the page.
@@ -87,9 +87,9 @@ Example `circle.yml`
 ```
 database:
   override:
-    - bundle exec rake db:create 
+    - bundle exec rake db:create
     - bundle exec rake db:migrate
-    - bundle exec rake db:seed 
+    - bundle exec rake db:seed
 deployment:
   staging:
     branch: master
