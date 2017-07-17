@@ -1,11 +1,14 @@
-# README
-<img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img>
-
 <h1> Sea Lion Love </h1>
 
-Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Memberships AR challenge with most MVC tests implemented. (For more info about using this repo and CI, see the document [here](./resources/ci_with_travis.pdf)).
+<img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img>
 
-INSTRUCTIONS:
+Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Memberships AR challenge with most MVC tests implemented. (For more info about using this repo and continuous integration (CI) see the document [here](./resources/ci_with_travis.pdf)). 
+
+## WHY?
+
+To demonstrate the beauty and ease of CI. 
+
+## INSTRUCTIONS
 
 * Install Rails 5
 * Run `bundle` inside the directory
@@ -53,12 +56,10 @@ script:
 - bundle exec rspec spec/
 ```
 
-Use Heroku account information to deploy to that service
-(Set up your app on Heroku like you normally would prior
+Use Heroku account information to deploy to that service (Set up your app on Heroku like you normally would prior
 to filling in these fields)
 
-To get the `api_key` field, run `travis encrypt $(heroku auth:token) --add deploy.api_key` in your local project directory. Also, you need to
-run `gem install travis` before running the previous command.
+To get the `api_key` field, run `travis encrypt $(heroku auth:token) --add deploy.api_key` in your local project directory. Also, you may need to run `gem install travis` before running the previous command if you do not have the Travis CI command line tools installed. 
 ```
 deploy:
   provider: heroku
@@ -67,7 +68,7 @@ deploy:
     secure: Lxa...
 ```
 
-Circle CI Annotations
+## CIRCLE CI INSTRUCTIONS FOR THOSE WHO CARE
 
 To build and deploy your project with CircleCI:
 
