@@ -1,6 +1,7 @@
 <h1> Sea Lion Love </h1>
 
-<img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img>
+HTML: <img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img><br>
+Markdown: [![Build Status](https://travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master)](https://travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails)
 
 Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Memberships AR challenge with most MVC tests implemented. (For more info about using this repo and continuous integration (CI) see the document [here](./resources/ci_with_travis.pdf)). 
 
@@ -67,6 +68,16 @@ deploy:
   api_key:
     secure: Lxa...
 ```
+
+How did we get this build badge to show up in this repo?
+
+<img src="./resources/build_badge.png">
+
+Pretty easily actually. After a build completes and Travis runs your program's test suite, Travis knows the status of your program's test results (Passing/Failing). If you navigate to your project's Travis test page, you'll see a status image at the top right of the page. Click this image to get a modal popup: 
+
+<img src="./resources/badge_selection.gif">
+
+Copy the `svg` image name in the bottom text field of the modal popup (you can use either the values from `Image URL` or `Markdown` dropdown selections in your GitHub readme.md). After you've copied the image name, pop it into your `readme.md` in an `<img>` tag or as some markdown. (Look at the beginning of this readme to see what I'm talking about).
 
 ## CIRCLE CI INSTRUCTIONS FOR THOSE WHO CARE
 
