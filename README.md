@@ -20,16 +20,14 @@ To demonstrate the beauty and ease of CI.
 * Explore!
 * Run Travis CI
 
-Travis Annotations (Everything below is run in a dynamic Docker
-container everytime Travis CI runs a test suite)
+Travis Annotations (Everything below is run in a dynamic Docker container every time Travis CI runs a test suite)
 
 Start Postgres:
 ```
 services:
 - postgresql
 ```
-Declare which programming languages are have tests against them
-and which versions of the programming language to test against.
+Declare which programming languages are have tests against them and which versions of the programming language to test against.
 ```
 language: ruby
 rvm:
