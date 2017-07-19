@@ -7,11 +7,11 @@ Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Member
 
 ## WHY?
 
-To demonstrate the beauty and ease of CI. 
+To show off some model/controller tests in Rails and demonstrate configuration of continuous integration/deployment software in a Rails project. 
 
 ## INSTRUCTIONS
 
-* Install Rails 5
+* Install Rails 5 on your development machine
 * Run `bundle` inside the directory
 * Run `rails db:seed RAILS_ENV=test; rails spec` to perform tests (lots of `*_controller` and `*_helper` tests are currently pending)
 * Run `rails db:seed` to seed development database
