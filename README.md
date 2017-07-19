@@ -1,7 +1,7 @@
-<h1> Sea Lion Love </h1>
+<h1> TDD and CI Love </h1>
 
-HTML: <img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img><br>
-Markdown: [![Build Status](https://travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master)](https://travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails)
+**HTML BADGE** <img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img><br>
+**MARKDOWN BADGE** [![Build Status](https://travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master)](https://travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails)
 
 Wooo! Check out this Rails implementation of the really fun Teams/Leagues/Memberships AR challenge with most MVC tests implemented. (For more info about using this repo and continuous integration (CI) see the document [here](./resources/ci_with_travis.pdf)). 
 
