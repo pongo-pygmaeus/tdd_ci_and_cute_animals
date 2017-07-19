@@ -69,7 +69,7 @@ deploy:
 
 How did we get this build badge to show up in this repo?
 
-<img src="./resources/build_badge.png">
+<img src="https://api.travis-ci.org/pongo-pygmaeus/ar-teams-and-leagues-challenge-rails.svg?branch=master"></img><br>
 
 Pretty easily actually. After a build completes and Travis runs your program's test suite, Travis knows the status of your program's test results (Passing/Failing). If you navigate to your project's Travis test page, you'll see a status image at the top right of the page. Click this image to get a modal popup: 
 
