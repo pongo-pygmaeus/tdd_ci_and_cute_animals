@@ -11,7 +11,7 @@ To demonstrate the beauty and ease of CI.
 
 ## INSTRUCTIONS
 
-* Install Rails 5
+* Install Rails 5 (`gem install rails`)
 * Run `bundle` inside the directory
 * Run `rails db:seed RAILS_ENV=test; rails spec` to perform tests (lots of `*_controller` and `*_helper` tests are currently pending)
 * Run `rails db:seed` to seed development database
